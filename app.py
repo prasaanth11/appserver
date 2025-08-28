@@ -11,9 +11,9 @@ app = Flask(__name__)
 
 stop_run = True
 # SQS queue to receive messages
-img_input_queue_url = "WEB-QUEUE-URL"
+img_input_queue_url = "https://sqs.ap-southeast-2.amazonaws.com/590183679875/web-queue"
 # SQS queue to send messages
-img_output_queue_url = "APPLICATION-QUEUE-URL"
+img_output_queue_url = "https://sqs.ap-southeast-2.amazonaws.com/590183679875/application-queue"
 
 region_name = "REGION-IDENTIFIER"
 
